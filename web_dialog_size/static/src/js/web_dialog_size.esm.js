@@ -1,8 +1,8 @@
 import {onWillRender} from "@odoo/owl";
 import {browser} from "@web/core/browser/browser";
 import {Dialog} from "@web/core/dialog/dialog";
-import {useService} from "@web/core/utils/hooks";
 import {patch} from "@web/core/utils/patch";
+import {useService} from "@web/core/utils/hooks";
 
 function triggerWindowResize() {
     requestAnimationFrame(() => {
